@@ -1,7 +1,6 @@
 
 from math import gcd,sqrt
 import sys
-sys.setrecursionlimit(10**6)
 
 # Pollard p-1 method for factoring a number N
 def isPrime(n):
