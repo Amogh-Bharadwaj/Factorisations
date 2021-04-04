@@ -15,7 +15,7 @@ def isPrime(n):
 
 
 def factorial(n):
-	if n==1 or n==0:
+	if n<2:
 		return 1
 	fact = [1,1]
 	for i in range(2,n+1):
@@ -32,7 +32,7 @@ def pollard_factor(n):
 		div = pow(2,factorial(k),n)-1
 		if(gcd(div,n)!=1):
 			return gcd(div,n)
-		k=k+1
+		k+=1
 
 				
 N = int(sys.argv[1])
