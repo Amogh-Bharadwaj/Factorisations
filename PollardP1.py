@@ -1,4 +1,3 @@
-
 from math import gcd,sqrt
 import sys
 
